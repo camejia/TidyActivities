@@ -1,3 +1,7 @@
 getdata-projectfiles-UCI HAR Dataset.zip
 UCI HAR Dataset/activity_labels.txt
 *.txt
+CodeBook.html
+*.html
+UCI HAR Dataset/.RData
+*.Rhistory
