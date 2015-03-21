@@ -6,7 +6,7 @@ This project creates a "tidy" data set from the "raw" data obtained from this li
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The data was processed by first extracting only the measurements for which a mean and standard deviation are available for that measurements.
+The run_analysis.R script contains the commands used to tidy the data. The data was processed by first extracting only the measurements for which a mean and standard deviation are available for that measurements.
 
 * Data from "train" and "test" directories were combined into a single data set.
 * Although more detailed raw data is available in the "Inertial Signals" subdirectories, that level of detail was not needed for this analysis.
@@ -25,4 +25,4 @@ This data set is tidy because:
 
 Note that after running the run_analysis.R script, the tidy data set can be read in with the following command:
 
-tidy.new <- read.table("tidy_activities.txt", header = TRUE)
+tidy.new <- read.table("tidy_activities.txt", header=TRUE)

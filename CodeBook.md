@@ -17,11 +17,13 @@ The remaining column variable names can be decomposed into substrings to determi
 
 * "t" or "f" for time or frequency measurement.  Time measurements are assumed to be in units of seconds and frequency measurements are assumed to be in units of Hz.
 * "BodyAcc", "GravityAcc", "BodyAccJerk", "BodyGyro", "BodyGyroJerk", or "BodyBodyGyroJerk" to indicate the major type of measurement being made.
-* "-mean()-" or "-std()" to indicate whether this is a mean or standard deviation.  Note the the tidy data set includes the mean of available measurement (i.e. mean of means or mean of stds), as described in the README file.
-* "X", "Y", "Z", or "Mag" to indicate the axis of measurement, or whether it is a magnitude of the X/Y/Z components
+* "-mean()-" or "-std()" to indicate whether this is a mean or standard deviation.  Note the the tidy data set contains the mean of available measurements (i.e. mean of means or mean of stds), as described in the README file.
+* "X", "Y", "Z", to indicate the axis of measurement, or or "Mag" to indicate it is the vector magnitude of the X/Y/Z components
 
 # Complete Variable Listing
 
+* activity
+* subject
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
 * tBodyAcc-mean()-Z
